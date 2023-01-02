@@ -1,0 +1,549 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Steven Wilson",
+      "email": "swilson.67@gmail.com",
+      "password": "HarmonyCodex67",
+      "isAdmin": true
+    },
+    {
+      "fullName": "Sydney Dickson",
+      "email": "SD@gmail.com",
+      "password": "DTruckNash",
+      "isAdmin": true,
+      "id": 5
+    },
+    {
+      "fullName": "bleh",
+      "email": "bleh@blhe.com",
+      "password": "S1",
+      "isAdmin": false,
+      "id": 7
+    },
+    {
+      "fullName": "Nathan Pyles",
+      "email": "nathanpyles.91@gmail.com",
+      "password": "Ghost91",
+      "isAdmin": true,
+      "id": 8
+    }
+  ],
+  "notes": [],
+  "studios": [
+    {
+      "id": 1,
+      "userId": 1,
+      "name": "Ocean Way Studios",
+      "location": "Nashville, TN"
+    },
+    {
+      "name": "Dump Trucks Studios",
+      "location": "Nashville, TN",
+      "userId": 5,
+      "id": 2
+    },
+    {
+      "name": "No-Man's Land",
+      "location": "St. Marys, OH",
+      "userId": 8,
+      "id": 3
+    }
+  ],
+  "studioGuitars": [],
+  "guitarRoomTypes": [
+    {
+      "id": 1,
+      "type": "Guitars"
+    },
+    {
+      "id": 2,
+      "type": "Amplifiers"
+    },
+    {
+      "id": 3,
+      "type": "Cabinets"
+    }
+  ],
+  "guitars": [
+    {
+      "id": 1,
+      "guitarRoomTypeId": 1,
+      "brand": "Gibson",
+      "model": "SG Maestro",
+      "serialNumber": "376483",
+      "image": "https://empiremusic-wp.s3.amazonaws.com/wp-content/uploads/2022/07/26173920/02-Gibson-SG-Standard-61-Maestro-208320134-Front-scaled.jpg"
+    },
+    {
+      "id": 2,
+      "guitarRoomTypeId": 1,
+      "brand": "Gibson",
+      "model": "Les Paul",
+      "serialNumber": 6055880,
+      "image": "https://www.cescoscornerguitars.com/img/portfolio/1952_Gibson_Les_Paul_Goldtop_Conversion_1957/1952_Gibson_Les_Paul_Goldtop_Conversion_1957_01.jpg"
+    },
+    {
+      "id": 3,
+      "guitarRoomTypeId": 1,
+      "brand": "PRS",
+      "model": "Custom 22 Singlecut",
+      "serialNumber": 205501,
+      "image": "https://cdn.shopify.com/s/files/1/0265/6190/4699/products/126045-1_1200x.jpg?v=1619212093"
+    },
+    {
+      "id": 4,
+      "guitarRoomTypeId": 1,
+      "brand": "PRS",
+      "model": "Custom 24",
+      "serialNumber": 330456,
+      "image": "https://wildwoodguitars.com/wp-content/uploads/2017/03/17238336_lg1.jpg"
+    },
+    {
+      "id": 5,
+      "guitarRoomTypeId": 1,
+      "brand": "Fender",
+      "model": "Stratocaster Standard",
+      "serialNumber": 9880456,
+      "image": "https://guitargiraffe.com/5311-large_default/1959-fender-stratocaster-rosewood-slab.jpg"
+    },
+    {
+      "id": 6,
+      "guitarRoomTypeId": 1,
+      "brand": "Fender",
+      "model": "Telecaster Elite",
+      "serialNumber": 9910445,
+      "image": "https://media.rainpos.com/8493/body_20191118160438.png"
+    },
+    {
+      "id": 7,
+      "guitarRoomTypeId": 1,
+      "brand": "Music Man",
+      "model": "Sting Ray",
+      "serialNumber": 553406,
+      "image": "https://m.media-amazon.com/images/I/71ZXgAa-YSL.jpg"
+    },
+    {
+      "id": 8,
+      "guitarRoomTypeId": 1,
+      "brand": "Martin",
+      "model": "000-18",
+      "serialNumber": 1044544,
+      "image": "https://cdn.shopify.com/s/files/1/0455/7527/4662/products/IMG_4793_860x.jpg?v=1658267359"
+    },
+    {
+      "id": 9,
+      "guitarRoomTypeId": 1,
+      "brand": "Martin",
+      "model": "D35",
+      "serialNumber": 4884454,
+      "image": "https://diamondguitars.nl/wp-content/uploads/2018/03/01-DSC_2553-1.jpg"
+    },
+    {
+      "id": 10,
+      "guitarRoomTypeId": 1,
+      "brand": "Gibson",
+      "model": "Country Western",
+      "serialNumber": 307889,
+      "image": "https://cdn.shopify.com/s/files/1/0230/9164/2448/articles/1956-Gibson-Country-Western-001_800x.jpg?v=1592487846"
+    },
+    {
+      "id": 11,
+      "guitarRoomTypeId": 2,
+      "brand": "Marshall",
+      "model": "JCM800",
+      "serialNumber": 579908,
+      "image": "http://static1.squarespace.com/static/5959f6d1db29d6b06ba595f5/t/5ff093c418d44937a9d9a359/1609601998030/NFX_9945.jpg?format=1500w"
+    },
+    {
+      "id": 12,
+      "guitarRoomTypeId": 2,
+      "brand": "Fender",
+      "model": "Super Reverb",
+      "serialNumber": 573358,
+      "image": "https://cdn.shopify.com/s/files/1/0343/4368/2183/products/fender-amps-guitar-combos-fender-super-reverb-amp-1965-u3497314203-28690908053639_1024x1024.jpg?v=1645506133"
+    },
+    {
+      "id": 13,
+      "guitarRoomTypeId": 2,
+      "brand": "BadCat",
+      "model": "Lynx 50",
+      "serialNumber": 6675,
+      "image": "https://i.ytimg.com/vi/3f4LIoxHZmo/maxresdefault.jpg"
+    },
+    {
+      "id": 14,
+      "guitarRoomTypeId": 2,
+      "brand": "Mesa Boogie",
+      "model": "Mark IV",
+      "serialNumber": 279498,
+      "image": "https://i.ytimg.com/vi/bw6Ld9_0MO8/maxresdefault.jpg"
+    },
+    {
+      "id": 15,
+      "guitarRoomTypeId": 3,
+      "brand": "Marshall",
+      "model": "1960b",
+      "serialNumber": 678808,
+      "image": "https://musicgoround.imgix.net/images/40015-S000281157-2?auto=compress,format&fit=clip&w=800"
+    },
+    {
+      "id": 16,
+      "guitarRoomTypeId": 3,
+      "brand": "BadCat",
+      "model": "4x12",
+      "serialNumber": 79918,
+      "image": "https://andertons-productimages.imgix.net/461529-Bad-Cat-4x12-Extension-Cab-Angle.jpeg"
+    },
+    {
+      "id": 17,
+      "guitarRoomTypeId": 3,
+      "brand": "Mesa Boogie",
+      "model": "2x12",
+      "serialNumber": 574408,
+      "image": "https://cdn11.bigcommerce.com/s-qmkmkpbc/images/stencil/1280x1280/products/5867/73303/MESA-212-CAB-RECTO-HORIZONTAL-BLACK--BLACK--SILVER-TENSIL---C1-098007-angle__69925.1661185628.jpg?c=2"
+    },
+    {
+      "id": 18,
+      "guitarRoomTypeId": 1,
+      "brand": "Fender",
+      "model": "Jazzmaster",
+      "serialNumber": 7780445,
+      "image": "https://www.retrofret.com/images/10649_Guitar/xLarge/10649_01.jpg"
+    },
+    {
+      "brand": "Gibson",
+      "model": "ES-335",
+      "serialNumber": 327846278,
+      "image": "https://guitargiraffe.com/5251-large_default/1967-gibson-es-335-tdc.jpg",
+      "guitarRoomTypeId": 1,
+      "id": 19
+    },
+    {
+      "brand": "Gibson",
+      "model": "Firebird",
+      "serialNumber": 55345,
+      "image": "https://www.retrofret.com/images/10610_Guitar/xLarge/10610_01.jpg",
+      "guitarRoomTypeId": 1,
+      "id": 20
+    }
+  ],
+  "studioMics": [],
+  "micTypes": [
+    {
+      "id": 1,
+      "type": "Large Diaphram Condensor"
+    },
+    {
+      "id": 2,
+      "type": "Small Diaphram Condensor"
+    },
+    {
+      "id": 3,
+      "type": "Ribbon"
+    },
+    {
+      "id": 4,
+      "type": "Dynamic"
+    }
+  ],
+  "microphones": [
+    {
+      "id": 1,
+      "micTypeId": 1,
+      "brand": "Neumann",
+      "model": "U87",
+      "serialNumber": 66759,
+      "image": "https://static-neumann.s3.amazonaws.com/global_images/image/file/46/order_supplement_image_zoom_in_U-87-Ai-Packaging_Neumann-Studio-Microphone_P.jpg"
+    },
+    {
+      "id": 2,
+      "micTypeId": 1,
+      "brand": "Neumann",
+      "model": "U47",
+      "serialNumber": 3765,
+      "image": "https://vintageking.com/media/catalog/product/cache/c8660c81d7196df55c33284290821786/n/e/neumann-telefunken-u47-tube-microphone-1655-vintage_167537_1.jpg"
+    },
+    {
+      "id": 3,
+      "micTypeId": 4,
+      "brand": "Shure",
+      "model": "SM57",
+      "serialNumber": 25559,
+      "image": "https://tinyurl.com/3ad353sk"
+    },
+    {
+      "id": 4,
+      "micTypeId": 3,
+      "brand": "Coles",
+      "model": "4038",
+      "serialNumber": 25559,
+      "image": "https://vintageking.com/media/catalog/product/cache/c8660c81d7196df55c33284290821786/c/o/coles_4038_single_1.jpg"
+    },
+    {
+      "id": 5,
+      "micTypeId": 2,
+      "brand": "Neumann",
+      "model": "KM184",
+      "serialNumber": 257759,
+      "image": "https://images.reverb.com/image/upload/s--Ib1iZqsU--/f_auto,t_supersize/v1452613445/yddmwhjs8w6ojq5jxeli.jpg"
+    },
+    {
+      "id": 6,
+      "micTypeId": 4,
+      "brand": "Sennheiser",
+      "model": "MD 421",
+      "serialNumber": 71759,
+      "image": "https://makegreatsound.files.wordpress.com/2014/04/sennheisermd-421.png"
+    },
+    {
+      "id": 7,
+      "micTypeId": 4,
+      "brand": "Sennheiser",
+      "model": "e 609",
+      "serialNumber": 55759,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQM87CVEnIeZx2-1wNsxE60OTSyVn-JBtVLdw&usqp=CAU"
+    },
+    {
+      "id": 8,
+      "micTypeId": 3,
+      "brand": "Royer",
+      "model": "R-121",
+      "serialNumber": 24851,
+      "image": "https://images.reverb.com/image/upload/s--qUYVtU79--/f_auto,t_supersize/v1598040998/cfa087bbnggfpdw2fhtl.jpg"
+    },
+    {
+      "id": 9,
+      "micTypeId": 4,
+      "brand": "Shure",
+      "model": "SM7",
+      "serialNumber": 25559,
+      "image": "https://images.reverb.com/image/upload/s--T7BtGYjk--/f_auto,t_supersize/v1596225418/kic4zzf3n4oo9fzbkjak.jpg"
+    },
+    {
+      "id": 10,
+      "micTypeId": 1,
+      "brand": "Sony",
+      "model": "C-800G",
+      "serialNumber": 251,
+      "image": "https://media.sweetwater.com/api/i/q-82__ha-3811bc3fadb5bf68__hmac-954cf381801ae52b4a242a8065aaa04e0c0dd531/images/items/750/C800G-large.jpg"
+    }
+  ],
+  "studioSynths": [],
+  "synthTypes": [
+    {
+      "id": 1,
+      "type": "Polyphonic"
+    },
+    {
+      "id": 2,
+      "type": "Monophonic"
+    },
+    {
+      "id": 3,
+      "type": "Sequencer"
+    },
+    {
+      "id": 4,
+      "type": "Modular"
+    }
+  ],
+  "synths": [
+    {
+      "id": 1,
+      "synthTypeId": 1,
+      "brand": "Sequential",
+      "model": "Prophet 6",
+      "serialNumber": 45897,
+      "image": "https://m.media-amazon.com/images/I/61uiiBeBT1L.jpg"
+    },
+    {
+      "id": 2,
+      "synthTypeId": 2,
+      "brand": "Moog",
+      "model": "Sub 37",
+      "serialNumber": 15597,
+      "image": "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/m/moog_sub37-replacement-q8Vii3w9iupAE7A5D1sm9RWl0OHqgP4A.jpg"
+    },
+    {
+      "id": 3,
+      "synthTypeId": 2,
+      "brand": "Moog",
+      "model": "Model D",
+      "serialNumber": 55097,
+      "image": "https://media.sweetwater.com/api/i/q-82__ha-29ee2e5747f4451f__hmac-01b38ee6ee854d0a7448204d3959e9c4fd31a01e/images/items/750/MinimoogD-large.jpg"
+    },
+    {
+      "id": 4,
+      "synthTypeId": 2,
+      "brand": "ARP",
+      "model": "2600",
+      "serialNumber": 4297,
+      "image": "https://cdn.korg.com/us/products/upload/d934e76672d27eab436ab57306ecad36_sp.jpg"
+    },
+    {
+      "id": 5,
+      "synthTypeId": 3,
+      "brand": "Arturia",
+      "model": "DrumBrute",
+      "serialNumber": 33897,
+      "image": "https://medias.arturia.net/cdn-cgi/image/quality=60,width=null/images/products/drumbrute-impact/gallery/08.jpg"
+    },
+    {
+      "id": 6,
+      "synthTypeId": 4,
+      "brand": "Moog",
+      "model": "System 55",
+      "serialNumber": 268,
+      "image": "https://api.moogmusic.com/sites/default/files/styles/super_key/public/images/2017-09/System_55.jpg?itok=oALDYv2h"
+    },
+    {
+      "id": 7,
+      "synthTypeId": 3,
+      "brand": "Akai",
+      "model": "MPC X",
+      "serialNumber": 6678,
+      "image": "https://dt7v1i9vyp3mf.cloudfront.net/styles/news_large/s3/imagelibrary/A/AkaiMPCX_01b-uRYzdDFxOFUQdLE9b1f5auSgFOHu.wWS.jpg"
+    },
+    {
+      "id": 8,
+      "synthTypeId": 1,
+      "brand": "Arturia",
+      "model": "MatrixBrute",
+      "serialNumber": 22817,
+      "image": "https://medias.arturia.net/images/products/matrixbrute/matrixbrute-image.png"
+    }
+  ],
+  "studioDrums": [],
+  "drumTypes": [
+    {
+      "id": 1,
+      "type": "Kicks"
+    },
+    {
+      "id": 2,
+      "type": "Snares"
+    },
+    {
+      "id": 3,
+      "type": "Toms"
+    },
+    {
+      "id": 4,
+      "type": "Cymbals"
+    }
+  ],
+  "drums": [
+    {
+      "id": 1,
+      "drumTypeId": 1,
+      "brand": "Sonor",
+      "size": "22x15",
+      "serialNumber": 3567,
+      "image": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/518442/16571986_800.jpg"
+    },
+    {
+      "id": 2,
+      "drumTypeId": 2,
+      "brand": "Sonor",
+      "size": "14x5",
+      "serialNumber": 4456,
+      "image": "https://th.static-thomann.de/thumb/padthumb600x600/pics/bdb/476839/14562148_800.jpg"
+    },
+    {
+      "id": 3,
+      "drumTypeId": 3,
+      "brand": "Sonor",
+      "size": "10x8",
+      "serialNumber": 4006,
+      "image": "https://i.ebayimg.com/images/g/Zn0AAOSw0KJiz0kG/s-l1600.jpg"
+    },
+    {
+      "id": 4,
+      "drumTypeId": 3,
+      "brand": "Sonor",
+      "size": "12x9",
+      "serialNumber": 4116,
+      "image": "https://media.rainpos.com/11042/81582328_246.jpg"
+    },
+    {
+      "id": 5,
+      "drumTypeId": 3,
+      "brand": "Sonor",
+      "size": "15x13",
+      "serialNumber": 4800,
+      "image": "https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/459756/14405419_800.jpg"
+    },
+    {
+      "id": 6,
+      "drumTypeId": 4,
+      "brand": "Zildjian",
+      "size": "17",
+      "serialNumber": 44006,
+      "image": "https://memphisdrumshop.com/pub/media/catalog/product/cache/68337f6737b1246fb987423404bc0fd9/zildjian-16-i-crash-cymbal-ilh16c_1.jpg"
+    },
+    {
+      "id": 7,
+      "drumTypeId": 4,
+      "brand": "Zildjian",
+      "size": "20",
+      "serialNumber": 41055,
+      "image": "https://dalesdrumshop.com/wp-content/uploads/2022/04/K1119-22-K-Con-Med-Thin-Low.webp"
+    },
+    {
+      "id": 8,
+      "drumTypeId": 4,
+      "brand": "Zildjian",
+      "size": "18",
+      "serialNumber": 58009,
+      "image": "https://c1.zzounds.com/media/productmedia/fit,2018by3200/quality,85/Z30618-f9fd961a9ce97d79d89f88c70b7253d8.jpg"
+    },
+    {
+      "id": 9,
+      "drumTypeId": 1,
+      "brand": "Ludwig",
+      "size": "24x14",
+      "serialNumber": 6565,
+      "image": "https://media.sweetwater.com/api/i/q-82__ha-de71eadaa1af8e72__hmac-934b554e99bf19c1900dffd187b786c6d39d310c/images/items/750/CM1424BOP-large.jpg"
+    },
+    {
+      "id": 10,
+      "drumTypeId": 2,
+      "brand": "Ludwig",
+      "size": "12x5",
+      "serialNumber": 77865,
+      "image": "https://www.ludwig-drums.com/application/files/2514/9444/3167/thumb-snare-LB400B_A_High_Res_3747.jpg"
+    },
+    {
+      "id": 11,
+      "drumTypeId": 2,
+      "brand": "Pork Pie",
+      "size": "14x6",
+      "serialNumber": 6245,
+      "image": "https://media.sweetwater.com/api/i/q-82__ha-aa179968653aec99__hmac-fa1c0047fda4d35f4741c7c97528085d50655e5a/images/items/750/PP65X14PB-large.jpg"
+    },
+    {
+      "id": 12,
+      "drumTypeId": 3,
+      "brand": "Ludwig",
+      "size": "14x14",
+      "serialNumber": 12615,
+      "image": "https://media.sweetwater.com/api/i/q-82__ha-a0dbf2478c2c1188__hmac-e0cfb94fead806fc75745e62aec251e5466c940a/images/items/750/CMT14BOP-large.jpg"
+    },
+    {
+      "id": 13,
+      "drumTypeId": 3,
+      "brand": "Ludwig",
+      "size": "7x8",
+      "serialNumber": 32465,
+      "image": "https://media.sweetwater.com/api/i/q-82__ha-85029d02656bf213__hmac-e0a1f3848de406cae961588803e362a8036ee624/images/closeup/750-CMF18-BOP_detail2.jpg"
+    },
+    {
+      "id": 14,
+      "drumTypeId": 3,
+      "brand": "Ludwig",
+      "size": "12x8",
+      "serialNumber": 62365,
+      "image": "https://www.drumcenternh.com/media/catalog/product/cache/62a280479d0990cd62b230155b3defe0/v/b/vbo1208.jpg"
+    }
+  ]
+}
