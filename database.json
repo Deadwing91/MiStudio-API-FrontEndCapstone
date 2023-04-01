@@ -15,21 +15,28 @@
       "id": 5
     },
     {
-      "fullName": "bleh",
-      "email": "bleh@blhe.com",
-      "password": "S1",
-      "isAdmin": false,
-      "id": 7
-    },
-    {
       "fullName": "Nathan Pyles",
       "email": "nathanpyles.91@gmail.com",
       "password": "Ghost91",
       "isAdmin": true,
-      "id": 8
+      "id": 9
+    },
+    {
+      "fullName": "John Doe",
+      "email": "JD@gmail.com",
+      "password": "Go!",
+      "isAdmin": true,
+      "id": 10
     }
   ],
-  "notes": [],
+  "notes": [
+    {
+      "userId": 9,
+      "description": "Add Les Paul, SG, Sting-ray, Super Reverb, U47, SM57, Model D and ARP 2600. 1/4/23",
+      "dateCompleted": "",
+      "id": 1
+    }
+  ],
   "studios": [
     {
       "id": 1,
@@ -44,10 +51,16 @@
       "id": 2
     },
     {
-      "name": "No-Man's Land",
-      "location": "St. Marys, OH",
-      "userId": 8,
-      "id": 3
+      "name": "No-Mans Land",
+      "location": "St. Marys",
+      "userId": 9,
+      "id": 4
+    },
+    {
+      "name": "John's Place",
+      "location": "Nashville, TN",
+      "userId": 10,
+      "id": 5
     }
   ],
   "studioGuitars": [],
@@ -72,7 +85,7 @@
       "brand": "Gibson",
       "model": "SG Maestro",
       "serialNumber": "376483",
-      "image": "https://empiremusic-wp.s3.amazonaws.com/wp-content/uploads/2022/07/26173920/02-Gibson-SG-Standard-61-Maestro-208320134-Front-scaled.jpg"
+      "image": "https://cdn.shopify.com/s/files/1/0255/8659/7968/products/711106035659-3.jpg?v=1594257505"
     },
     {
       "id": 2,
@@ -147,14 +160,6 @@
       "image": "https://cdn.shopify.com/s/files/1/0230/9164/2448/articles/1956-Gibson-Country-Western-001_800x.jpg?v=1592487846"
     },
     {
-      "id": 11,
-      "guitarRoomTypeId": 2,
-      "brand": "Marshall",
-      "model": "JCM800",
-      "serialNumber": 579908,
-      "image": "http://static1.squarespace.com/static/5959f6d1db29d6b06ba595f5/t/5ff093c418d44937a9d9a359/1609601998030/NFX_9945.jpg?format=1500w"
-    },
-    {
       "id": 12,
       "guitarRoomTypeId": 2,
       "brand": "Fender",
@@ -221,7 +226,7 @@
     {
       "brand": "Gibson",
       "model": "Firebird",
-      "serialNumber": 55345,
+      "serialNumber": 12346,
       "image": "https://www.retrofret.com/images/10610_Guitar/xLarge/10610_01.jpg",
       "guitarRoomTypeId": 1,
       "id": 20
